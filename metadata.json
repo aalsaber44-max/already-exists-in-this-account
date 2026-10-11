@@ -1,0 +1,6 @@
+{
+  "name": "منصة الويب الإبداعية | Creative Web App",
+  "description": "تطبيق ويب تفاعلي مبني باحترافية حسب متطلباتك",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

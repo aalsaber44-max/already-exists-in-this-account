@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes pulseFast {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  header, footer, nav, button, input {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  #root {
+    width: 100% !important;
+  }
+}
